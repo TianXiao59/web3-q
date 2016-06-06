@@ -2918,6 +2918,7 @@ var checkForContractAddress = function(contract, callback){
                                 // console.log('Contract code deployed!');
 
                                 contract.address = receipt.contractAddress;
+                                contract.code = code
 
                                 // attach events and methods again after we have
                                 addFunctionsToContract(contract);
