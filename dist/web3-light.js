@@ -4246,6 +4246,7 @@ SolidityFunction.prototype.attachToContract = function (contract) {
     execute.call = this.call.bind(this);
     execute.sendTransaction = this.sendTransaction.bind(this);
     execute.estimateGas = this.estimateGas.bind(this);
+    execute.estimateGas.q = this.estimateGasQ.bind(this);
     execute.getData = this.getData.bind(this);
     execute.q = this.q.bind(this);
     var displayName = this.displayName();
