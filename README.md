@@ -4,11 +4,7 @@
 
 Web3-Q is not meant for production, but for unit testing purposes (see chaithereum). Ironically, it does not contain unit tests beyond what exists in the Web3 repo.
 
-Version numbers are set to match those of the canonical web3 repo. If this repo falls behind that web3, please leave an issue and I will manually update.
-
-Thanks!
-
--Aakil
+Version numbers are set to match those of the canonical web3 repo as closely as possible. Due to npm restrictions, patches may not match up exactly. If this repo falls behind that web3, please leave an issue and I will manually update.
 
 ## Additional Functions
 
