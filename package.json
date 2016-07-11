@@ -1,8 +1,8 @@
 {
-  "name": "web3",
+  "name": "web3-q",
   "namespace": "ethereum",
   "version": "0.16.0",
-  "description": "Ethereum JavaScript API, middleware to talk to a ethereum node over RPC",
+  "description": "Promisified Ethereum JavaScript API, middleware to talk to a ethereum node over RPC",
   "main": "./index.js",
   "directories": {
     "lib": "./lib"

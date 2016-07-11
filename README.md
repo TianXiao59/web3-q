@@ -1,3 +1,21 @@
+# web3-q
+
+Web3-Q is not meant for production, but for unit testing purposes (see chaithereum). Ironically, it does not contain unit tests beyond what exists in the Web3 repo.
+
+Version numbers are set to match those of the canonical web3 repo. If this repo falls behind that web3, please leave an issue and I will manually update.
+
+Thanks!
+
+-Aakil
+
+## Additional Functions
+
+    web3.eth.method.q(...).then(...)
+    ContractFactory.new.q(...).then(...)
+    contract.method.q(...).then(...)
+    contract.method.estimateGas.q(...).then(...)
+    contract.filter(...).q(...).then(...)
+
 # Migration 0.13.0 -> 0.14.0
 
 web3.js version 0.14.0 supports [multiple instances of web3](https://github.com/ethereum/web3.js/issues/297) object.
