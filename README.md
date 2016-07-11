@@ -1,5 +1,7 @@
 # web3-q
 
+`npm install --save-dev web3-q`
+
 Web3-Q is not meant for production, but for unit testing purposes (see chaithereum). Ironically, it does not contain unit tests beyond what exists in the Web3 repo.
 
 Version numbers are set to match those of the canonical web3 repo. If this repo falls behind that web3, please leave an issue and I will manually update.
