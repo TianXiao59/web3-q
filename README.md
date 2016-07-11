@@ -16,6 +16,14 @@ Thanks!
     contract.method.estimateGas.q(...).then(...)
     contract.filter(...).q(...).then(...)
 
+### Examples
+
+    web3.eth.getBalance.q('0x...').then((balance) => {...})
+    MyContractFactory.new.q({ data: ... }).then((MyContract) => {...})
+    MyContract.owner.q().then((_owner) => {...})
+    MyContract.setOwner.estimateGas.q('0x...').then((gas) => {...})
+    MyContract.OwnerChanges(...).q(...).then((results) => {...})
+
 # Migration 0.13.0 -> 0.14.0
 
 web3.js version 0.14.0 supports [multiple instances of web3](https://github.com/ethereum/web3.js/issues/297) object.
